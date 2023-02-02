@@ -16,12 +16,6 @@
     display: table;
     clear: both;
 }
-
-/* Utility */
-.alignTextHorizontal{
-    text-align: center;
-}
-
 header, main{
     max-width: 1400px;
     margin: 0 auto;
@@ -30,6 +24,13 @@ body{
     background-color: var(--backgrColor);
     font-family: 'Fredoka', sans-serif;
 }
+
+/* Utility */
+.alignTextHorizontal{
+    text-align: center;
+}
+
+/* HEADER */
 header h1{
     color: var(--titleColor);
     font-size: 2.8rem;
@@ -39,6 +40,8 @@ header p{
     font-size: 1.3rem;
     margin: 0 1.2rem 1.8rem 1.2rem;
 }
+
+/* CARDS */
 .card{
     width: calc(100% / 3 - 2.4rem);
     height: 115px;
@@ -66,7 +69,4 @@ header p{
 .card .mail{
     color: var(--cardMailColor);
     padding-top: 5px;
-}
-.debug{
-    border: 1px solid black;
 }
