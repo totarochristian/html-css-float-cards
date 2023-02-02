@@ -5,3 +5,14 @@
     --cardBackgrColor: #0f0e17;
     --cardMailColor: #52c7ff;
 }
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
