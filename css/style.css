@@ -40,6 +40,29 @@ header p{
     margin-bottom: 3rem;
 }
 .card{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 2.4rem);
+    height: 115px;
     float: left;
+    background-color: var(--cardBackgrColor);
+    color: var(--cardTextColor);
+    margin: 1.5rem 1.2rem;
+    font-size: 1.1rem;
+}
+.card img{
+    width: 32%;
+    height: 115px;
+    float: left;
+    object-fit: cover;
+    padding-right: 20px;
+}
+.card .title{
+    padding-top: 13px;
+    font-size: 1.3rem;
+}
+.card .role{
+    padding: 8px 0 8px 0;
+}
+.card .mail{
+    color: var(--cardMailColor);
+    padding-top: 5px;
 }
