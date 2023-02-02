@@ -39,3 +39,7 @@ header p{
     font-size: 1.3rem;
     margin-bottom: 3rem;
 }
+.card{
+    width: calc(100% / 3);
+    float: left;
+}
