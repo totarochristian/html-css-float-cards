@@ -16,6 +16,10 @@
     display: table;
     clear: both;
 }
+header, main{
+    max-width: 1400px;
+    margin: 0 auto;
+}
 body{
     background-color: var(--backgrColor);
     font-family: 'Fredoka', sans-serif;
