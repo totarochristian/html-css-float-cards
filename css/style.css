@@ -20,3 +20,10 @@ body{
     background-color: var(--backgrColor);
     font-family: 'Fredoka', sans-serif;
 }
+header h1{
+    color: var(--titleColor);
+    font-size: 2.5rem;
+}
+header p{
+    font-size: 1.3rem;
+}
