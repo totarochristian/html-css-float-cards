@@ -47,6 +47,7 @@ header p{
     color: var(--cardTextColor);
     margin: 1.5rem 1.2rem;
     font-size: 1.1rem;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,.15);
 }
 .card img{
     width: 32%;
