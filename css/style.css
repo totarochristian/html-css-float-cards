@@ -16,6 +16,12 @@
     display: table;
     clear: both;
 }
+
+/* Utility */
+.alignTextHorizontal{
+    text-align: center;
+}
+
 header, main{
     max-width: 1400px;
     margin: 0 auto;
