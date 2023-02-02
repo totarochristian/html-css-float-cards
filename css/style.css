@@ -33,7 +33,9 @@ body{
 header h1{
     color: var(--titleColor);
     font-size: 2.5rem;
+    margin: 2rem 0 3rem 0;
 }
 header p{
     font-size: 1.3rem;
+    margin-bottom: 3rem;
 }
