@@ -44,6 +44,7 @@ header p{
 /* CARDS */
 .card{
     width: calc(100% / 3 - 2.4rem);
+    min-width: 199px;
     float: left;
     background-color: var(--cardBackgrColor);
     color: var(--cardTextColor);
