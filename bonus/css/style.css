@@ -39,13 +39,14 @@ header p{
 /* CARDS */
 .card{
     width: calc(100% / 3 - 2.4rem);
+    min-width: 199px;
     background-color: var(--cardBackgrColor);
     color: var(--cardTextColor);
     font-size: 1.1rem;
     box-shadow: 0 0 5px 5px rgba(0,0,0,.15);
 }
 .card img{
-    width: 32%;
+    width: 150px;
     height: 115px;
     float: left;
     object-fit: cover;
@@ -62,15 +63,22 @@ header p{
     color: var(--cardMailColor);
     padding-top: 5px;
 }
+.container{
+    margin: 0 auto;
+    width: 60%;
+}
 
 /* Utilizzo di flex per le cards */
 .d-flex{
-    margin: 0 auto;
-    width: 60%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     align-content: center;
     gap: 2rem 1rem;
+}
+.nogap{
+    gap: 0;
+}
+.contentCenter{
+    justify-content: center;
 }
